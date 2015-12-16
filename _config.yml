@@ -1,7 +1,6 @@
 # Site settings
 title: gotsoft
-description: > # this means to ignore newlines until "baseurl:"
-  Have you got your software today?
+footer: Have you got your software today?
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
@@ -9,4 +8,3 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 markdown: kramdown
 
 include: ["_pages"]
-woah: nice
