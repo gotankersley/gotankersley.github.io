@@ -1,6 +1,4 @@
-/**
- * Site header
- */
+//Site header
 .site-header {
 	background-color: $grey-color-light;
     border-top: 5px solid $grey-color-dark;
@@ -104,10 +102,8 @@
 
 
 
-/**
- * Site footer
- */
-.site-footer {
+//Site footer
+ .site-footer {
     border-top: 1px solid $grey-color-light;
 	background-color: $black-color;
     padding: $spacing-unit 0;
@@ -163,9 +159,7 @@
 
 
 
-/**
- * Page content
- */
+//Page content
 .page-content {
     padding: $spacing-unit 0;
 	min-height: 600px;
@@ -196,10 +190,8 @@
 
 
 
-/**
- * Posts
- */
-.post-header {
+//Posts
+ .post-header {
     margin-bottom: $spacing-unit;
 }
 
@@ -239,4 +231,12 @@
             font-size: 18px;
         }
     }
+}
+
+
+.thumb {
+	max-width: 200px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }

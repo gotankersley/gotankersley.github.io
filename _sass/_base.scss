@@ -1,6 +1,4 @@
-/**
- * Reset some basic elements
- */
+//Reset some basic elements
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -10,10 +8,8 @@ dl, dd, ol, ul, figure {
 
 html {height: 100%; }
 
-/**
- * Basic styling
- */
-body {
+//Basic styling
+ body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     background-color: $background-color;
@@ -29,9 +25,8 @@ body {
 
 
 
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
+
+// Set `margin-bottom` to maintain vertical rhythm
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -41,9 +36,7 @@ ul, ol, dl, figure,
 
 
 
-/**
- * Images
- */
+//Images
 img {
     max-width: 100%;
     vertical-align: middle;
@@ -51,9 +44,7 @@ img {
 
 
 
-/**
- * Figures
- */
+//Figures
 figure > img {
     display: block;
 }
@@ -64,9 +55,7 @@ figcaption {
 
 
 
-/**
- * Lists
- */
+//Lists
 ul, ol {
     margin-left: $spacing-unit;
 }
@@ -80,19 +69,16 @@ li {
 
 
 
-/**
- * Headings
- */
+//Headings
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
 
 
-/**
- * Links
- */
-a {
+
+//Links
+ a {
     color: $brand-color;
     text-decoration: none;
 
@@ -108,10 +94,9 @@ a {
 
 
 
-/**
- * Blockquotes
- */
-blockquote {
+
+//Blockquotes
+ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
@@ -126,11 +111,9 @@ blockquote {
 
 
 
-/**
- * Code formatting
- */
-pre,
-code {
+
+ //Code formatting
+pre, code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
@@ -154,9 +137,7 @@ pre {
 
 
 
-/**
- * Wrapper
- */
+ //Wrapper
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -176,10 +157,8 @@ pre {
 
 
 
-/**
- * Clearfix
- */
-%clearfix {
+ //Clearfix
+ %clearfix {
 
     &:after {
         content: "";
@@ -190,9 +169,7 @@ pre {
 
 
 
-/**
- * Icons
- */
+ //Icons
 .icon {
 
     > svg {
