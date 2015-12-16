@@ -11,6 +11,14 @@
     position: relative;
 }
 
+.site-logo{
+	float: left;
+	margin-left:-150px;
+	background: url('/img/logo/chomp.png') no-repeat;
+	width: 150px;
+	height: 80px;
+}
+
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -24,6 +32,7 @@
         color: $grey-color-dark;
     }
 }
+
 
 .site-nav {
     float: right;
@@ -102,6 +111,7 @@
     border-top: 1px solid $grey-color-light;
 	background-color: $black-color;
     padding: $spacing-unit 0;
+	
 }
 
 .footer-heading {
@@ -124,25 +134,11 @@
 }
 
 .footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
+    text-align: center;
+    margin: 0 auto;
     padding-left: $spacing-unit / 2;
 }
 
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
 
 @include media-query($on-laptop) {
     .footer-col-1,
@@ -172,6 +168,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+	min-height: 600px;
 }
 
 .page-heading {
