@@ -3,12 +3,12 @@ title: gotsoft
 footer: Have you got your software today?
 baseurl: "" # the subpath of your site, e.g. /blog
 description: A bit of awesome
-url: "http://gotankersley.github.io" # the base hostname & protocol for your site
+url: "http://gotankersley.github.io" 
+comments_enabled: false
+excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
 
 include: ["_pages"]
-exclude: [todo, node_modules]
-
-excerpt_separator: <!--more-->
+exclude: [todo, node_modules, build.sh, scripts]

@@ -4,6 +4,7 @@ X ssh key
 X build
 X favicon
 x filezilla / samba / fileshare
+X gallery
 
 script / tools:
 - new post
@@ -15,10 +16,9 @@ script / tools:
 
 comments
 pagination
-gallery
 readmore
 opinions category
-
+categories
 
 
 fx:
