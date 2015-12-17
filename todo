@@ -1,13 +1,17 @@
-favicon
-404 pages
+Done:
+X 404 pages
+X ssh key
+X build
+X favicon
+x filezilla / samba / fileshare
 
 script / tools:
-- build
 - new post
 - minification
 
 ? issues:
-- s
+- search
+- 
 
 comments
 pagination
@@ -15,9 +19,7 @@ gallery
 readmore
 opinions category
 
-workflow:
-- ssh key
-- filezilla / samba
+
 
 fx:
 - chomp logo

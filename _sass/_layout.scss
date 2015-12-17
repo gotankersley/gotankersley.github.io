@@ -3,10 +3,18 @@
 	background-color: $grey-color-light;
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $orange;	
-    min-height: 56px;
+    min-height: 56px;	
 
     // Positioning context for the mobile navigation icon
     position: relative;
+}
+
+.site-header.graphics  {
+	background-color: #49a7e9;
+}
+
+.site-header.games {
+	background-color: #63bd2f;
 }
 
 .site-logo{

@@ -10,3 +10,5 @@ markdown: kramdown
 
 include: ["_pages"]
 exclude: [todo, node_modules]
+
+excerpt_separator: <!--more-->
