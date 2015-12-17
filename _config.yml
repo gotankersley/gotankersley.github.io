@@ -9,4 +9,4 @@ url: "http://gotankersley.github.io" # the base hostname & protocol for your sit
 markdown: kramdown
 
 include: ["_pages"]
-exclude: todo, node_modules
+exclude: [todo, node_modules]
