@@ -1,0 +1,24 @@
+favicon
+404 pages
+
+script / tools:
+- build
+- new post
+- minification
+
+? issues:
+- s
+
+comments
+pagination
+gallery
+readmore
+opinions category
+
+workflow:
+- ssh key
+- filezilla / samba
+
+fx:
+- chomp logo
+- different colors for categories
