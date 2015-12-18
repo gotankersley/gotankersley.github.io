@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: category
 title: Graphics
 permalink: /graphics/
 order: 0

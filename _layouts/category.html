@@ -1,10 +1,32 @@
 ---
 layout: default
 ---
+{% comment %}  
 <ul class="tags">
 {% for tag in site.tags %}
-  {% assign t = tag | first %}
-  {% assign posts = tag | last %}
-  <li>{{t | downcase }} has {{ posts | size }} posts</li>
+	{% assign t = tag | first %}
+	{% assign posts = tag | last %}
+	<li>{{t | downcase }} has {{ posts | size }} posts</li>
+{% endfor %}
+</ul>
+{% endcomment %}
+
+<h1 class="page-heading">Posts</h1>
+
+<ul class="post-list">
+{% for post in site.posts %}	
+	{% assign cat = page.title | downcase %}
+	{% if post.tags.first == cat %}
+	<li class="post-item">
+		<h2>
+			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		</h2>
+		<div>
+			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		</div>
+		<a href="{{ post.url | prepend: site.baseurl }}"><img class="thumb" src="{{post.thumb}}" /></a>
+		{{post.excerpt}}
+	</li>
+	{% endif %}
 {% endfor %}
 </ul>
