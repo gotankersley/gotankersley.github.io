@@ -20,7 +20,7 @@
 .site-logo{
 	float: left;
 	margin-left:-150px;
-	background: url('/img/logo/chomp.png') no-repeat;
+	background: url('/img/site/chomp.png') no-repeat;
 	width: 150px;
 	height: 80px;
 }
@@ -241,15 +241,34 @@
     }
 }
 
-.post-item {
+.post-item {	
+	margin-left: -10px;
+	margin-right: 10px;	
+}
+
+.cat-post-item {	
 	border: 1px solid orange;
 	margin-left: -10px;
+	margin-right: 10px;	
 	padding-left: 10px;
 }
-.thumb {
+
+.post-item-border {
+	border: 1px solid orange;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-height: 330px;
+	@include media-query($on-laptop) {
+		min-height: auto;
+		text-align: center;
+	}
+}
+.thumb{
 	max-width: 200px;
+	margin-bottom: 20px;
+}
+.thumb:not(.no-border) {
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-	margin-bottom: 20px;
 }

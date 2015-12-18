@@ -4,23 +4,19 @@ X ssh key
 X build
 X favicon
 x filezilla / samba / fileshare
-X gallery
+x different colors for categories
+x new post
+x readmore
 
-script / tools:
-- new post
-- minification
-
-? issues:
-- search
-- 
 
 comments
 pagination
-readmore
-opinions category
-categories
+gallery
+grid layout
+analytics
 
+fix:
+- mobile move logo
 
 fx:
 - chomp logo
-- different colors for categories
