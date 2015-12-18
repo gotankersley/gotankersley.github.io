@@ -12,10 +12,9 @@
       <div class="wrapper">
         {{ content }}
       </div>
-    </div>
-
+    </div>	
     {% include footer.html %}
-
+	{% if site.analytics_enabled %}{% include analytics.html %}{% endif %}
   </body>
 
 </html>
