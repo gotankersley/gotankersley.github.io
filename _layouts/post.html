@@ -9,7 +9,9 @@ layout: default
   </header>
 
   <div>
-	<a href="#"><img src="{{page.thumb}}" /></a>
+	{% if page.project-link %}<a href="http://gotankersley.github.io{{page.project-link}}"><img src="{{page.thumb}}" /></a>
+	{% else %}<img src="{{page.thumb}}" />
+	{% endif %}
   </div>
   <div class="post-content" itemprop="articleBody">
     {{ content }}
