@@ -7,8 +7,10 @@ thumb: /img/creeping-tanks/board-3d.png
 no-border: true
 project-link: /creeping-tanks
 gallery:
-- img: /img/creeping-tanks/board-top.png
-- img: /img/creeping-tanks/epic.png
+ - img: /img/creeping-tanks/board-top.png
+   caption: From the top
+ - img: /img/creeping-tanks/epic.png
+   caption: An epic test
 ---
 The board game creeper - digital warefare edition...<!--more-->
 Click [here](/creeping-tanks/) to play.
