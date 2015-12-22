@@ -13,7 +13,7 @@
 			</svg>
 		</a>
 
-      <div class="trigger">
+      <div class="trigger">	
 	    {% assign sorted_pages = (site.pages | sort: 'order') %}
         {% for my_page in sorted_pages %}
           {% if my_page.title %}
@@ -22,6 +22,7 @@
 			{% endif %}
           {% endif %}
         {% endfor %}
+	
       </div>
     </nav>
 
