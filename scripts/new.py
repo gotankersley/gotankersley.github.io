@@ -12,7 +12,6 @@ frontMatter = \
 """---
 layout: post
 title: %s
-date:  %s
 tags:  %s
 ---"""
 frontMatter = frontMatter % (title, postDate, tags)
