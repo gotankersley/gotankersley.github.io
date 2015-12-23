@@ -6,10 +6,16 @@ tags:  games softdev creeper
 thumb: /img/creeping-tanks/board-3d.png
 no-border: true
 project-link: /creeping-tanks
+gallery:
+ - img: /img/creeping-tanks/board-top.png
+   caption: From the top
+ - img: /img/creeping-tanks/epic.png
+   caption: An epic test
 ---
 The board game creeper - digital warefare edition...<!--more-->
 Click [here](/creeping-tanks/) to play.
 
 Originally created using Unity 3 under the ironic (for me) project name of ScopeCreep, and now available online thanks to Unity's newly improved WebGL exporter.  
 
-![Top down](/img/creeping-tanks/board-top.png)
+
+{% include gallery.html %}

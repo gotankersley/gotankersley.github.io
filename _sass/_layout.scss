@@ -276,3 +276,18 @@
 .cat-post-item .thumb {
 	max-width: 350px;
 }
+
+.gallery div {
+	max-height: 150px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	padding: 3px;
+}
+.gallery img {
+	
+}
+
+.gallery div:hover {
+	padding: 0;
+	border: 3px solid #49a7e9;
+}
