@@ -6,7 +6,7 @@ description: A bit of awesome
 url: "http://gotankersley.github.io" 
 excerpt_separator: <!--more-->
 comments_enabled: true
-analytics_enabled: true
+analytics_enabled: true 
 
 # Build settings
 markdown: kramdown
