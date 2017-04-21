@@ -5,7 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 description: A bit of awesome
 url: "http://gotankersley.github.io" 
 excerpt_separator: <!--more-->
-comments_enabled: true
+comments_enabled: false
 analytics_enabled: true 
 
 # Build settings
