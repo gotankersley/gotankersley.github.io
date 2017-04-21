@@ -9,7 +9,7 @@ order: 2
 
 Pleased to recyle...
 
-##Contact info:
+## Contact info:
 [gotankersley[at]harding.edu](mailto:gotankersley[at]harding.edu)
 
 
