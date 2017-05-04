@@ -15,10 +15,10 @@ gallery:
 The board game creeper - digital warfare edition...<!--more-->
 Click [here](/creeping-tanks/) to play.
 
-#About
+# About
 Originally created using Unity 3 under the ironic (for me) project name of ScopeCreep, and now available online thanks to Unity's newly improved WebGL exporter.  
 
-#Singularity
+# Singularity
 I experimented with writing a couple of different AI versions for the game.  (Sadly, none of which are currently available in the online version).  One of which was the MCTS version which borrowed very heavily from [Richard's Pilgrim](https://github.com/richardjs/Pilgrim).  However, the nearly unbeatable version I tested it against, was the AI from [Fire and Ice](/https://github.com/Dustin-Howell/Capstone) which is an Alpha beta AI tuned using a [genetic algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm).
 
 {% include gallery.html %}
