@@ -10,4 +10,4 @@ project-link: /breakthrough
 ---
 Simple - yet surprisingly deep...<!--more-->
 
-A simple version of Dan Troyka's abstract board game of <a href="https://boardgamegeek.com/boardgame/3825/breakthrough" target="_blank">Breakthrough</a>
+An implementation of Dan Troyka's abstract board game of <a href="https://boardgamegeek.com/boardgame/3825/breakthrough" target="_blank">Breakthrough</a>
