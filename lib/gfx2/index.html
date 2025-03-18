@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>gfx</title>                        
+    </head>
+    <body>			
+        <div id="gui" style="float:right;"></div>
+        <canvas style="border:1px solid black" width="600" height="600" id="drawing"></canvas>
+    </body>
+    
+<script>
+//Globals
+var gui = document.getElementById('gui');	
+var canvas = document.getElementById('drawing');
+var ctx = canvas.getContext('2d');
+</script>
+
+<script type="module">
+	
+	
+	if (window.location.search) {
+		var includePath = window.location.search.substr(1);
+		
+		(async () => {
+			await import(includePath + '.js');
+			window.Render();
+		})()
+	}
+			
+</script>
+
+</html>
