@@ -1,7 +1,7 @@
 import {Slider} from '/lib/gfx2/gui.js';
 
-const WIDTH = 1200;
-const HEIGHT = 1000;
+const WIDTH = 900;
+const HEIGHT = 800;
 const CENTER_X = WIDTH/2;
 const CENTER_Y = HEIGHT/2;
 const DOOR_SEED = Math.floor(Math.random()*2);
