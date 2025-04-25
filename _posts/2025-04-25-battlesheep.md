@@ -10,7 +10,7 @@ project-link: /quoridor
 ---
 Baaa....<!--more-->
 
-An implementation of the abstract board game of <a href="https://boardgamegeek.com/boardgame/54137/battle-sheep" target="_blank">Battlesheep</a>
-<a href="/battlesheep"><img src="/battlesheep/img/example"></a>
+An implementation of the abstract board game of <a href="https://boardgamegeek.com/boardgame/54137/battle-sheep" target="_blank">Battlesheep</a><br/>
+<a href="/battlesheep"><img src="/battlesheep/img/example.png"></a>
 
 
