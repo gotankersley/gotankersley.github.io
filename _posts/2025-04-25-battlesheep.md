@@ -6,7 +6,7 @@ tags: games softdev battlesheep
 thumb: /battlesheep/img/white/sheep1.png
 no-border: true
 caption: Board game
-project-link: /quoridor
+project-link: /battlesheep
 ---
 Baaa....<!--more-->
 
